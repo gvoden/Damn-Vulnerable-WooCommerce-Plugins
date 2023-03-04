@@ -1,5 +1,5 @@
 # use the official wordpress Docker image
-FROM wordpress:5.1.1
+FROM wordpress:6.1-fpm
 
 # install curl and jq
 RUN apt-get update
